@@ -55,7 +55,7 @@ $txt['repair_operation_missing_calendar_topics'] = 'Событие привяз�
 $txt['repair_operation_missing_log_topics'] = 'Логи привязаны к несуществующему разделу';
 $txt['repair_operation_missing_log_topics_members'] = 'Логи привязаны к несуществующему пользователю';
 $txt['repair_operation_missing_log_boards'] = 'Логи привязаны к несуществующему разделу';
-$txt['repair_operation_missing_log_boards_members'] = 'Лог привязаны к несуществующему пользователю';
+$txt['repair_operation_missing_log_boards_members'] = 'Логи привязаны к несуществующему пользователю';
 $txt['repair_operation_missing_log_mark_read'] = 'Отметка прочтения привязана к несуществующему разделу';
 $txt['repair_operation_missing_log_mark_read_members'] = 'Отметка прочтения привязана к несуществующему ';
 $txt['repair_operation_missing_pms'] = 'Отправитель сообщения личной почты отсутствует';
@@ -78,7 +78,7 @@ $txt['salvaged_board_description'] = 'Темы, созданные для соо
 $txt['salvaged_board_error'] = 'Невозможно создать раздел "Восстановленные темы"!';
 $txt['salvaged_poll_topic_name'] = 'Восстановленное голосование';
 $txt['salvaged_poll_message_body'] = 'Это голосование не было связано ни с какой темой.';
-$txt['salvaged_poll_question'] = 'This poll was found without a question.';
+$txt['salvaged_poll_question'] = 'Это голосование было без текста.';
 
 $txt['database_optimize'] = 'Оптимизировать базу данных';
 $txt['database_numb_tables'] = 'Ваша база данных содержит %1$d таблиц.';
@@ -103,8 +103,8 @@ $txt['clear_filter'] = 'Очистить фильтр';
 $txt['remove_selection'] = 'Удалить выделенное';
 $txt['remove_filtered_results'] = 'Удалить все результаты фильтрации';
 $txt['sure_about_errorlog_remove'] = 'Хотите удалить все сообщения об ошибках?';
-$txt['remove_selection_confirm'] = 'Are you sure you want to delete the selected entries?';
-$txt['remove_filtered_results_confirm'] = 'Are you sure you want to delete the filtered entries?';
+$txt['remove_selection_confirm'] = 'Уверены, что хотите удалить все выбранные записи?';
+$txt['remove_filtered_results_confirm'] = 'Уверены, что хотите удалить все отфильтрованные записи?';
 $txt['reverse_direction'] = 'Показать в обратном хронологическом порядке';
 $txt['error_type'] = 'Тип ошибки';
 $txt['filter_only_type'] = 'Отображать ошибки только этого типа';
@@ -167,9 +167,9 @@ $txt['maintain_old_choose'] = 'Выбранные разделы (нажмите
 $txt['maintain_old_remove'] = 'Удалить';
 $txt['maintain_old_confirm'] = 'Уверены, что хотите удалить старые сообщения?-n-Это действие не может быть отменено!';
 
-$txt['maintain_old_drafts'] = 'Remove old drafts';
-$txt['maintain_old_drafts_days'] = 'Remove all drafts older than';
-$txt['maintain_old_drafts_confirm'] = 'Are you really sure you want to delete old drafts now?-n-This cannot be undone!';
+$txt['maintain_old_drafts'] = 'Удалить старые черновики';
+$txt['maintain_old_drafts_days'] = 'Удалить черновики старее чем';
+$txt['maintain_old_drafts_confirm'] = 'Уверены, что хотите удалить старые черновики?-n-Это действие нельзя отменить!';
 $txt['maintain_members'] = 'Удалить неактивных пользователей';
 $txt['maintain_members_ungrouped'] = 'Пользователи без групп <span class="smalltext">(Пользователи, не относящиеся ни к одной из групп)</span>';
 $txt['maintain_members_since1'] = 'Удалить всех пользователей, которые не';
@@ -203,9 +203,9 @@ $txt['move_topics_to'] = 'в';
 $txt['move_topics_now'] = 'Перенести';
 $txt['move_topics_confirm'] = 'Хотите перенести ВСЕ темы из раздела &quot;%board_from%&quot; в раздел &quot;%board_to%&quot;?';
 $txt['move_topics_older_than'] = 'Move topics not posted in for ';
-$txt['move_type_sticky'] = 'Sticky topics';
-$txt['move_type_locked'] = 'Locked topics';
-$txt['move_zero_all'] = 'Enter 0 to move all topics';
+$txt['move_type_sticky'] = 'Прикрепленные темы';
+$txt['move_type_locked'] = 'Закрытые темы';
+$txt['move_zero_all'] = 'Введите 0 чтобы переместить все темы';
 
 $txt['maintain_reattribute_posts'] = 'Присвоить сообщения пользователю';
 $txt['reattribute_guest_posts'] = 'Присвоить сообщения гостя, опубликованные с';
@@ -220,7 +220,7 @@ $txt['reattribute_confirm_username'] = 'имя пользователя';
 $txt['reattribute_confirm_email'] = 'e-mail';
 $txt['reattribute_cannot_find_member'] = 'Пользователь, которому нужно присвоить сообщения, не найден.';
 
-$txt['maintain_recountposts'] = 'Recount User Posts';
+$txt['maintain_recountposts'] = 'Пересчитать сообщения пользователей';
 $txt['maintain_recountposts_info'] = 'Run this maintenance task to update your users total post count. It will recount all (countable) posts made by each user and then update their profile post count totals';
 
 $txt['safe_mode_enabled'] = '<a href="http://php.net/manual/en/features.safe-mode.php">safe_mode</a> is enabled on your server!<br>The backup done with this tool cannot be considered reliable!';
