@@ -8,10 +8,10 @@ $txt['modlog_action'] = 'Действие';
 $txt['modlog_ip'] = 'IP';
 $txt['modlog_search_result'] = 'Результаты поиска';
 $txt['modlog_total_entries'] = 'Всего записей';
-$txt['modlog_ac_approve_topic'] = 'Одобрена тема &quot;{topic}&quot; от пользователя &quot;{member}&quot;';
-$txt['modlog_ac_unapprove_topic'] = 'Unapproved topic &quot;{topic}&quot; by &quot;{member}&quot;';
+$txt['modlog_ac_approve_topic'] = 'Одобрена тема &quot;{topic}&quot; пользователя &quot;{member}&quot;';
+$txt['modlog_ac_unapprove_topic'] = 'Отменено одобрение темы &quot;{topic}&quot; пользователя &quot;{member}&quot;';
 $txt['modlog_ac_approve'] = 'Одобрено сообщение &quot;{subject}&quot; в теме &quot;{topic}&quot; от пользователя &quot;{member}&quot;';
-$txt['modlog_ac_unapprove'] = 'Unapproved message &quot;{subject}&quot; in &quot;{topic}&quot; by &quot;{member}&quot;';
+$txt['modlog_ac_unapprove'] = 'Отменено одобрение сообщения &quot;{subject}&quot; в теме &quot;{topic}&quot; от пользователя &quot;{member}&quot;';
 $txt['modlog_ac_lock'] = 'Заблокирована тема &quot;{topic}&quot;';
 $txt['modlog_ac_warning'] = 'Пользователь {member} получил предупреждение за &quot;{message}&quot;';
 $txt['modlog_ac_unlock'] = 'Разблокирована тема &quot;{topic}&quot;';
@@ -27,16 +27,16 @@ $txt['modlog_ac_move'] = 'Перенесена тема &quot;{topic}&quot; из
 $txt['modlog_ac_profile'] = 'Отредактирован профиль';
 $txt['modlog_ac_pruned'] = 'Удалено несколько сообщений с возрастом более {days} дней';
 $txt['modlog_ac_news'] = 'Изменены новости';
-$txt['modlog_ac_clearlog_moderate'] = 'Cleared the moderation log';
-$txt['modlog_ac_clearlog_admin'] = 'Cleared the administration log';
+$txt['modlog_ac_clearlog_moderate'] = 'Очищен лог модерации';
+$txt['modlog_ac_clearlog_admin'] = 'Очищен лог администрирования';
 $txt['modlog_enter_comment'] = 'Ввести комментарий';
 $txt['modlog_moderation_log'] = 'Лог модерации';
 $txt['modlog_moderation_log_desc'] = 'Ниже показан список всех действий, произведенных модераторами форума.';
 $txt['modlog_no_entries_found'] = 'Записей не найдено';
 $txt['modlog_remove'] = 'Удалить';
 $txt['modlog_removeall'] = 'Удалить все';
-$txt['modlog_remove_selected_confirm'] = 'Are you sure you want to delete the selected log entries?';
-$txt['modlog_remove_all_confirm'] = 'Are you sure you want to completely clear the log?';
+$txt['modlog_remove_selected_confirm'] = 'Уверены, что что хотите удалить выбранные записи?';
+$txt['modlog_remove_all_confirm'] = 'Уверены, что хотите полностью очистить лог?';
 $txt['modlog_go'] = 'Поиск';
 $txt['modlog_add'] = 'Добавить';
 $txt['modlog_search'] = 'Быстрый поиск';
@@ -48,7 +48,7 @@ $txt['modlog_ac_modify_warn_template'] = 'Отредактирован шабл�
 $txt['modlog_ac_delete_warn_template'] = 'Удален шаблон предупреждения: &quot;{template}&quot;';
 
 $txt['modlog_ac_ban'] = 'Добавлены параметры бана:';
-$txt['modlog_ac_ban_remove'] = 'Removed ban triggers:';
+$txt['modlog_ac_ban_remove'] = 'Удалены параметры бана:';
 $txt['modlog_ac_ban_trigger_member'] = ' <em>Пользователь:</em> {member}';
 $txt['modlog_ac_ban_trigger_email'] = '<em>Email:</em> {email}';
 $txt['modlog_ac_ban_trigger_ip_range'] = '<em>IP:</em> {ip_range}';
@@ -89,28 +89,28 @@ $txt['modlog_ac_restore_posts'] = 'Восстановлены сообщения
 
 $txt['modlog_parameter_guest'] = '<em>Гость</em>';
 
-$txt['modlog_ac_approve_attach'] = 'Approved &quot;{filename}&quot; in &quot;{message}&quot;';
-$txt['modlog_ac_remove_attach'] = 'Removed unapproved &quot;{filename}&quot; in &quot;{message}&quot;';
+$txt['modlog_ac_approve_attach'] = 'Одобрено вложение &quot;{filename}&quot; в сообщении &quot;{message}&quot;';
+$txt['modlog_ac_remove_attach'] = 'Удалено неодобренное вложение &quot;{filename}&quot; в сообщении &quot;{message}&quot;';
 
 // Handling reports on posts
-$txt['modlog_report'] = 'report';
-$txt['modlog_ac_close_report'] = 'Closed {report} on &quot;{message}&quot;';
-$txt['modlog_ac_ignore_report'] = 'Disregarded {report} on &quot;{message}&quot;';
-$txt['modlog_ac_open_report'] = 'Reopened {report} on &quot;{message}&quot;';
-$txt['modlog_ac_unignore_report'] = 'Undone disregard of {report} on &quot;{message}&quot;';
+$txt['modlog_report'] = 'жалоба';
+$txt['modlog_ac_close_report'] = 'Закрыта жалоба {report} на сообщение &quot;{message}&quot;';
+$txt['modlog_ac_ignore_report'] = 'Проигнорирована жалоба {report} на сообщение &quot;{message}&quot;';
+$txt['modlog_ac_open_report'] = 'Открыта заново жалоба {report} на сообщение &quot;{message}&quot;';
+$txt['modlog_ac_unignore_report'] = 'Отменено игнорирование жалобы {report} на сообщение &quot;{message}&quot;';
 
 // Handling reports on users
-$txt['modlog_ac_close_user_report'] = 'Closed {report} on profile of {member}';
-$txt['modlog_ac_ignore_user_report'] = 'Disregarded {report} on profile of {member}';
-$txt['modlog_ac_open_user_report'] = 'Reopened {report} on profile of {member}';
-$txt['modlog_ac_unignore_user_report'] = 'Undone disregard of {report} on profile of {member}';
+$txt['modlog_ac_close_user_report'] = 'Закрыта жалоба {report} на профиль {member}';
+$txt['modlog_ac_ignore_user_report'] = 'Проигнорирована жалоба {report} на профиль {member}';
+$txt['modlog_ac_open_user_report'] = 'Открыта заново жалоба {report} на профиль {member}';
+$txt['modlog_ac_unignore_user_report'] = 'Отменено игнорирование жалобы {report} на профиль {member}';
 
 // Poll stuff
-$txt['modlog_ac_add_poll'] = 'Added a poll to &quot;{topic}&quot;';
-$txt['modlog_ac_edit_poll'] = 'Edited the poll in &quot;{topic}&quot;';
-$txt['modlog_ac_lock_poll'] = 'Locked voting in the poll in &quot;{topic}&quot;';
-$txt['modlog_ac_remove_poll'] = 'Removed the poll from &quot;{topic}&quot;';
-$txt['modlog_ac_reset_poll'] = 'Reset votes in the poll in &quot;{topic}&quot;';
-$txt['modlog_ac_unlock_poll'] = 'Unlocked voting in the poll in &quot;{topic}&quot;';
+$txt['modlog_ac_add_poll'] = 'Добавлено голосование в тему &quot;{topic}&quot;';
+$txt['modlog_ac_edit_poll'] = 'Отредактировано голосование в теме &quot;{topic}&quot;';
+$txt['modlog_ac_lock_poll'] = 'Закрыто голосование в теме &quot;{topic}&quot;';
+$txt['modlog_ac_remove_poll'] = 'Удалено голосование из темы &quot;{topic}&quot;';
+$txt['modlog_ac_reset_poll'] = 'Сброшены результаты голосования в теме &quot;{topic}&quot;';
+$txt['modlog_ac_unlock_poll'] = 'Заново открыто голосование в теме &quot;{topic}&quot;';
 
 ?>
