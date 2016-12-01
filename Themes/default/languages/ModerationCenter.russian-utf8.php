@@ -12,30 +12,30 @@ $txt['mc_view_groups'] = 'Просмотр групп';
 
 $txt['mc_description'] = 'Это ваш &quot;Центр модерации&quot;. Здесь, вы выполняете действия по модерированию форума, которые разрешены для Вас администратором. Эта страница отражает все последние события форума.';
 $txt['mc_group_requests'] = 'Запросы в группы';
-$txt['mc_group_requests_active'] = 'Active Requests';
-$txt['mc_group_requests_closed'] = 'Old Requests';
+$txt['mc_group_requests_active'] = 'Активные запросы';
+$txt['mc_group_requests_closed'] = 'Старые запросы';
 $txt['mc_unapproved_posts'] = 'Неодобренные сообщения';
 $txt['mc_watched_users'] = 'Пользователи под наблюдением';
 $txt['mc_watched_topics'] = 'Темы под наблюдением';
 $txt['mc_scratch_board'] = 'Панель управления модератора';
 $txt['mc_latest_news'] = 'Последние новости Simple Machines';
 $txt['mc_recent_reports'] = 'Последние отчеты о темах';
-$txt['mc_recent_user_reports'] = 'Recent Profile Reports';
+$txt['mc_recent_user_reports'] = 'Последние жалобы на профили';
 $txt['mc_warnings'] = 'Логи предупреждений';
 $txt['mc_notes'] = 'Примечания для модераторов';
 
-$txt['mc_notes_delete_own'] = 'You are only allowed to delete your own notes.';
-$txt['mc_cannot_connect_sm'] = 'You are unable to connect to simplemachines.org\'s latest news file.';
+$txt['mc_notes_delete_own'] = 'Вы можете удалять только свои записи.';
+$txt['mc_cannot_connect_sm'] = 'Невозможно соединиться с simplemachines.org для получения последних новостей.';
 
 $txt['mc_recent_reports_none'] = 'Отчетов нет';
 $txt['mc_watched_users_none'] = 'В данный момент нет пользователей под наблюдением.';
 $txt['mc_group_requests_none'] = 'В данный момент нет запросов в группы.';
-$txt['mc_reported_users_none'] = 'There are no pending profile reports.';
+$txt['mc_reported_users_none'] = 'В данный момент нет  жалоб на профили.';
 
 $txt['mc_seen'] = '%1$s последний просмотр %2$s';
 $txt['mc_seen_never'] = '%1$s не просмотрено';
 $txt['mc_groupr_by'] = 'от';
-$txt['mc_post_report'] = '%1$s by %2$s';
+$txt['mc_post_report'] = '%1$s от %2$s';
 
 $txt['mc_reported_posts_desc'] = 'Здесь можно просматривать все отчеты, присланные пользователями форума.';
 $txt['mc_reportedp_active'] = 'Активные отчеты';
@@ -44,18 +44,18 @@ $txt['mc_reportedp_by'] = 'от';
 $txt['mc_reportedp_reported_by'] = 'Отчеты от';
 $txt['mc_reportedp_last_reported'] = 'Последние отчеты';
 $txt['mc_reportedp_none_found'] = 'Отчетов нет';
-$txt['mc_reportedp_comment_none_found'] = 'No Moderator Comment Found';
-$txt['mc_reportedp_comment_edit'] = 'Edit';
-$txt['mc_reportedp_comment_delete'] = 'Delete';
+$txt['mc_reportedp_comment_none_found'] = 'Нет комментариев модераторов';
+$txt['mc_reportedp_comment_edit'] = 'Редактировать';
+$txt['mc_reportedp_comment_delete'] = 'Удалить';
 $txt['mc_reportedp_details'] = 'Детали';
 $txt['mc_reportedp_close'] = 'Закрыть';
 $txt['mc_reportedp_open'] = 'Открыть';
 $txt['mc_reportedp_ignore'] = 'Игнорировать';
 $txt['mc_reportedp_unignore'] = 'Перестать игнорировать';
-$txt['mc_reportedp_delete'] = 'Delete message';
-$txt['mc_reportedp_new_comment'] = 'Add a new comment';
-$txt['mc_reportedp_delete_confirm'] = 'Are you sure you wish to delete this message?';
-$txt['mc_reportedp_ban'] = 'Ban this user';
+$txt['mc_reportedp_delete'] = 'Удалить сообщение';
+$txt['mc_reportedp_new_comment'] = 'Добавить комментарий';
+$txt['mc_reportedp_delete_confirm'] = 'Уверены, что хотите удалить это сообщение?';
+$txt['mc_reportedp_ban'] = 'Забанить этого пользователя';
 // Do not use numeric entries in the below string.
 $txt['mc_reportedp_ignore_confirm'] = 'Если выбрать "OK", то то форум будет молча игнорировать все последующие попытки жалоб на это сообщение; модераторы больше не увидят никаких жалоб на это сообщение. Уверены, что хотите сделать это?';
 $txt['mc_reportedp_close_selected'] = 'Закрыть выделенные';
@@ -63,10 +63,10 @@ $txt['mc_reportedp_close_selected'] = 'Закрыть выделенные';
 $txt['mc_groupr_group'] = 'Группа';
 $txt['mc_groupr_member'] = 'Пользователь';
 $txt['mc_groupr_reason'] = 'Причина';
-$txt['mc_groupr_no_reason'] = 'No reason given';
+$txt['mc_groupr_no_reason'] = 'Не указана причина';
 $txt['mc_groupr_none_found'] = 'Запросов в группы нет.';
-$txt['mc_groupr_approved'] = 'Request approved';
-$txt['mc_groupr_rejected'] = 'Request rejected';
+$txt['mc_groupr_approved'] = 'Запрос одобрен';
+$txt['mc_groupr_rejected'] = 'Запрос отклонен';
 $txt['mc_groupr_submit'] = 'Отправить';
 $txt['mc_groupr_reason_desc'] = 'Причина отклонения запроса %1$s на присоединение к &quot;%2$s&quot;';
 $txt['mc_groups_reason_title'] = 'Причина отклонения';
@@ -78,7 +78,7 @@ $txt['mc_groupr_reject_w_reason'] = 'Отклонить запрос, указа
 $txt['mc_groupr_warning'] = 'Вы действительно хотите сделать это?';
 
 $txt['mc_unapproved_attachments_none_found'] = 'Неодобренных вложений не найдено!';
-$txt['mc_unapproved_attachments_desc'] = 'From here you can approve or delete any attachments awaiting moderation.';
+$txt['mc_unapproved_attachments_desc'] = 'Здесь вы можете одобрить или удалить вложения ожидающие модерации.';
 $txt['mc_unapproved_replies_none_found'] = 'Неодобренных сообщений не найдено!';
 $txt['mc_unapproved_topics_none_found'] = 'Неодобренных тем не найдено!';
 $txt['mc_unapproved_posts_desc'] = 'Здесь можно одобрить или удалить любые сообщения, ожидающие модерации.';
@@ -97,17 +97,17 @@ $txt['mc_modreport_modactions'] = 'Действие выполнено друг�
 $txt['mc_modreport_mod_comments'] = 'Комментарий модератора';
 $txt['mc_modreport_no_mod_comment'] = 'Комментарии модератора отсутствуют';
 $txt['mc_modreport_add_mod_comment'] = 'Добавить комментарий';
-$txt['mc_modreport_edit_mod_comment'] = 'Edit Comment';
+$txt['mc_modreport_edit_mod_comment'] = 'Отредактировать комментарий';
 
-$txt['mc_viewmemberreport'] = 'Report for profile of %1$s';
-$txt['mc_memberreport_summary'] = 'There have been %1$d report(s) concerning this member. The last report was %2$s.';
-$txt['mc_memberreport_whoreported_title'] = 'Members who have reported this member.';
+$txt['mc_viewmemberreport'] = 'Жалоба на профиль %1$s';
+$txt['mc_memberreport_summary'] = 'Было %1$d жалоб на этого пользователя. Последняя жалоба была %2$s.';
+$txt['mc_memberreport_whoreported_title'] = 'Пользователи подавшие жалобы на этого.';
 
 $txt['show_notice'] = 'Текст уведомления';
 $txt['show_notice_subject'] = 'Тема';
 $txt['show_notice_text'] = 'Текст';
 
-$txt['mc_watched_users_title'] = 'Пользователи под наблюдением';
+$txt['mc_watched_users_title'] = 'Под наблюдением';
 $txt['mc_watched_users_desc'] = 'Здесь можно отслеживать всех пользователей, находящихся под &quot;наблюдением&quot; модераторов и требующие одобрения сообщения от них. ';
 $txt['mc_watched_users_post'] = 'По сообщениям';
 $txt['mc_watched_users_warning'] = 'Уровень предупреждения';
@@ -137,18 +137,18 @@ $txt['mc_warning_template_add'] = 'Добавить шаблон';
 $txt['mc_warning_template_modify'] = 'Изменить шаблон';
 $txt['mc_warning_template_delete'] = 'Удалить выбранные';
 $txt['mc_warning_template_delete_confirm'] = 'Уверены, что хотите удалить выбранные шаблоны?';
-$txt['report_action_message_saved'] = 'You successfully created a new comment.';
-$txt['report_action_message_edited'] = 'You successfully edited the comment.';
-$txt['report_action_message_deleted'] = 'The message was successfully deleted.';
-$txt['report_action_message_edit_issue'] = 'The message you\'re trying to edit isn\'t available any more. Please check if it wasn\'t deleted already.';
-$txt['report_action_message_edit_cannot'] = 'I\'m sorry, you aren\'t allowed to edit this comment.';
-$txt['report_action_message_delete_cannot'] = 'I\'m sorry, you aren\'t allowed to delete this comment.';
-$txt['report_action_message_delete_issue'] = 'The message you\'re trying to delete isn\'t available any more. Please check if it wasn\'t deleted already.';
-$txt['report_action_ignore'] = 'The report was successfully ignored.';
-$txt['report_action_unignore'] = 'The report was successfully un-ignored.';
-$txt['report_action_close'] = 'The report was successfully closed.';
-$txt['report_action_open'] = 'The report was successfully open.';
-$txt['report_action_close_all'] = 'You successfully closed all selected reports.';
+$txt['report_action_message_saved'] = 'Вы добавили комментарий.';
+$txt['report_action_message_edited'] = 'Вы отредактировали комментарий.';
+$txt['report_action_message_deleted'] = 'Сообщение удалено.';
+$txt['report_action_message_edit_issue'] = 'Сообщение, которое вы пытаетесь отредактировать, недоступно. Проверьте, что оно уже не удалено.';
+$txt['report_action_message_edit_cannot'] = 'Вы не можете отредактировать этот комментарий.';
+$txt['report_action_message_delete_cannot'] = 'Вы не можете удалить этот комментарий.';
+$txt['report_action_message_delete_issue'] = 'Сообщение, которое вы пытаетесь удалить, недоступно. Проверьте, что оно уже не удалено.';
+$txt['report_action_ignore'] = 'Жалобы была проигнорирована.';
+$txt['report_action_unignore'] = 'Отменено игнорирование жалобы.';
+$txt['report_action_close'] = 'Жалоба была закрыта.';
+$txt['report_action_open'] = 'Жалоба была открыта.';
+$txt['report_action_close_all'] = 'Вы закрыли все выбранные жалобы.';
 
 $txt['mc_warning_template_desc'] = 'Используйте эту страницу для заполнения детальной информации о шаблоне. Помните, что поле "Заголовок шаблона" не является частью шаблона. Помните, что уведомление отсылается в системе личных сообщений с использованием кодов BB, которые не описываются в шаблоне. Помните, что если используете переменную {MESSAGE}, то этот шаблон будет недоступен при использовании общих предупреждений (предупреждения не включаются в текст сообщения).';
 $txt['mc_warning_template_title'] = 'Заголовок шаблона';
@@ -156,24 +156,24 @@ $txt['mc_warning_template_body_desc'] = 'Содержание уведомлен
 $txt['mc_warning_template_body_default'] = '{MEMBER},' . "\n\n" . 'Вам выносится предупреждение за плохое поведение на форуме. Пожалуйста, прекратите нарушение правил форума во избежание применения к Вам административных санкций.' . "\n\n" . '{REGARDS}';
 $txt['mc_warning_template_personal'] = 'Личный шаблон';
 $txt['mc_warning_template_personal_desc'] = 'При выборе этой опции видеть шаблон, изменять и использовать сможете только Вы. Если эта опция не выбрана, видеть и использовать шаблон могут все модераторы.';
-$txt['mc_warning_template_error_no_title'] = 'You must set title.';
-$txt['mc_warning_template_error_no_body'] = 'You must set a notification body.';
+$txt['mc_warning_template_error_no_title'] = 'Вы должны задать название.';
+$txt['mc_warning_template_error_no_body'] = 'Вы должны задать текст уведомления.';
 
 $txt['mc_settings'] = 'Изменить настройки';
 $txt['mc_prefs_title'] = 'Настройки модератора';
 $txt['mc_prefs_desc'] = 'Этот раздел позволяет вам установить некоторые персональные настройки, такие как уведомления по e-mail, для слежения за деятельностью модераторов.';
-$txt['mc_no_settings'] = 'There are no settings to display.';
+$txt['mc_no_settings'] = 'Нет настроек для отображения.';
 
 $txt['mc_prefs_notify_approval'] = 'Уведомлять об ожидающих одобрения элементах';
-$txt['mc_logoff'] = 'End Moderator Session';
+$txt['mc_logoff'] = 'Завершить сессию';
 
 // Use entities in the below string.
 $txt['mc_click_add_note'] = 'Добавить новое примечание';
 $txt['mc_add_note'] = 'Добавить';
 
 // Do not use numeric entries in the below string.
-$txt['mc_reportedm_ignore_confirm'] = 'Are you sure you wish to ignore further reports about this user\'s profile?\\n\\nThis will turn off further reports for everyone.';
-$txt['mc_reported_members_title'] = 'Reported Members';
-$txt['mc_reported_members_desc'] = 'Allows you to view a list of all users whose profiles have been reported';
+$txt['mc_reportedm_ignore_confirm'] = 'Уверены, что хотите игнорировать все дальнейшие жалобы на профиль этого пользователя?\\n\\nЭто отключит все дальнейшие жалобы.';
+$txt['mc_reported_members_title'] = 'Жалобы на профили';
+$txt['mc_reported_members_desc'] = 'Здесь вы можете видеть список пользователей, на профили которых есть жалобы.';
 
 ?>
