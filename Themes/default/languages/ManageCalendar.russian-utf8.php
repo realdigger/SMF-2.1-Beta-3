@@ -16,7 +16,7 @@ $txt['setting_cal_days_for_index'] = 'Максимальное количест�
 $txt['setting_cal_showholidays'] = 'Показывать праздники';
 $txt['setting_cal_showbdays'] = 'Показывать дни рождения';
 $txt['setting_cal_showevents'] = 'Показывать события';
-$txt['setting_cal_export'] = 'Allow events to be exported in iCal format';
+$txt['setting_cal_export'] = 'Разрешить экспорт событий в формат iCal';
 $txt['setting_cal_show_never'] = 'Никогда';
 $txt['setting_cal_show_cal'] = 'Только в календаре';
 $txt['setting_cal_show_index'] = 'Только на главной странице форума';
@@ -29,31 +29,31 @@ $txt['setting_cal_allowspan'] = 'Разрешить отображать соб�
 $txt['setting_cal_maxspan'] = 'Максимальное количество дней для отображения события';
 $txt['setting_cal_showInTopic'] = 'Показывать связанные с темой события';
 
-$txt['setting_cal_display_type'] = 'Cell Display Type';
-$txt['setting_cal_display_comfortable'] = 'Comfortable';
-$txt['setting_cal_display_compact'] = 'Compact';
+$txt['setting_cal_display_type'] = 'Вид календаря';
+$txt['setting_cal_display_comfortable'] = 'Стандартный';
+$txt['setting_cal_display_compact'] = 'Компактный';
 
-$txt['setting_cal_disable_prev_next'] = 'Disable Three Month Blocks';
+$txt['setting_cal_disable_prev_next'] = 'Отключить блок с тремя месяцами';
 
-$txt['setting_cal_highlight_events'] = 'Highlight Events';
-$txt['setting_cal_highlight_holidays'] = 'Highlight Holidays';
-$txt['setting_cal_highlight_birthdays'] = 'Highlight Birthdays';
+$txt['setting_cal_highlight_events'] = 'Подсвечивать события';
+$txt['setting_cal_highlight_holidays'] = 'Подсвечивать праздники';
+$txt['setting_cal_highlight_birthdays'] = 'Подсвечивать дни рождения';
 
-$txt['setting_cal_highlight_none'] = 'Nowhere';
-$txt['setting_cal_highlight_mini'] = 'Mini Calendars Only';
-$txt['setting_cal_highlight_main'] = 'Main Calendar Only';
-$txt['setting_cal_highlight_both'] = 'Mini &amp; Main Calendars';
+$txt['setting_cal_highlight_none'] = 'Нигде';
+$txt['setting_cal_highlight_mini'] = 'Только мини-календарь';
+$txt['setting_cal_highlight_main'] = 'Только стандартный календарь';
+$txt['setting_cal_highlight_both'] = 'Мини-календарь и стандартный';
 
-$txt['setting_cal_week_links'] = 'Show Week Links';
-$txt['setting_cal_week_links_none'] = 'Nowhere';
-$txt['setting_cal_week_links_mini'] = 'Mini Calendars Only';
-$txt['setting_cal_week_links_main'] = 'Main Calendar Only';
-$txt['setting_cal_week_links_both'] = 'Mini &amp; Main Calendars';
-$txt['setting_cal_prev_next_links'] = 'Show <em>Previous / Next</em> Month Links';
+$txt['setting_cal_week_links'] = 'Показывать ссылки на недели';
+$txt['setting_cal_week_links_none'] = 'Нигде';
+$txt['setting_cal_week_links_mini'] = 'Только мини-календарь';
+$txt['setting_cal_week_links_main'] = 'Только стандартный календарь';
+$txt['setting_cal_week_links_both'] = 'Мини-календарь и стандартный';
+$txt['setting_cal_prev_next_links'] = 'Показывать ссылки <em>Предыдущий / Следующий</em> месяц';
 
 // The name of this setting is kind of misleading...we can't shorten actual months unfortunately!
-$txt['setting_cal_short_months'] = 'Short Month Titles';
-$txt['setting_cal_short_days'] = 'Short Day Titles';
+$txt['setting_cal_short_months'] = 'Короткие названия месяцев';
+$txt['setting_cal_short_days'] = 'Короткие названия дней недели';
 
 // Adding/Editing/Viewing Holidays
 $txt['manage_holidays_desc'] = 'Здесь можно добавлять и удалять праздники в календаре.';
