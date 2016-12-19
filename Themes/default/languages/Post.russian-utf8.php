@@ -8,7 +8,7 @@ $txt['message_icon'] = 'Иконка';
 $txt['subject_not_filled'] = 'Отсутствует тема сообщения.';
 $txt['message_body_not_filled'] = 'Поле сообщения было оставлено пустым.';
 // Use numeric entities in the below string.
-$txt['add_bbc'] = 'Добавить BB код';
+$txt['add_bbc'] = 'Добавить ББ-код';
 
 $txt['disable_smileys'] = 'Отключить смайлы';
 $txt['dont_use_smileys'] = 'Не использовать смайлы.';
@@ -72,7 +72,7 @@ $txt['report_comment'] = 'Пользователь оставил следующ
 // Use numeric entities in the below three strings.
 $txt['report_profile'] = 'Жалоба на профиль \'%1$s\'';
 $txt['reported_profile'] = 'Жалоба от пользователя';
-$txt['report_following_user'] = 'The profile of "%1$s" at %2$s';
+$txt['report_following_user'] = 'Профиль пользователя "%1$s" в %2$s';
 
 $txt['attach_restrict_attachmentPostLimit'] = 'максимальный размер всех файлов — %1$d Кбайт';
 $txt['attach_restrict_attachmentPostLimit_MB'] = 'максимальный размер всех файлов — %1$d MB';
@@ -174,7 +174,7 @@ $txt['attach_remaining'] = '%1$d осталось';
 $txt['attach_available'] = '%1$s KB доступно';
 $txt['attach_kb'] = '(%1$s Кб)';
 $txt['attach_0_byte_file'] = 'Файл имеет нулевой размер. Сообщите адиминистратору, если это повторяется.';
-$txt['attached_files_in_session'] = '<em>The above underlined file(s) have been uploaded but will not be attached to this post until it is submitted.</em>';
+$txt['attached_files_in_session'] = '<em>Указанные выше файлы были загружены, но не будут вложены в сообщение, пока оно не будет одобрено.</em>';
 $txt['attached_file_uploaded'] = 'Вложения успешно загружены!';
 $txt['attached_file_delete'] = 'Удалить это вложение';
 $txt['attached_file_cannot'] = 'Вы не можете загружать вложения';
