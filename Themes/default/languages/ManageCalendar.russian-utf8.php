@@ -2,7 +2,6 @@
 // Version: 2.1 Beta 3; ManageCalendar
 
 $txt['calendar_desc'] = 'Здесь можно изменить настройки календаря.';
-
 // Calendar Settings
 $txt['calendar_settings_desc'] = 'Здесь можно включить и настроить календарь.';
 $txt['save_settings'] = 'Сохранить настройки';
@@ -25,36 +24,33 @@ $txt['setting_cal_defaultboard'] = 'Раздел по умолчанию для 
 $txt['setting_cal_allow_unlinked'] = 'Разрешить события, не связанные с сообщениями';
 $txt['setting_cal_minyear'] = 'Минимальный год';
 $txt['setting_cal_maxyear'] = 'Максимальный год';
-$txt['setting_cal_allowspan'] = 'Разрешить отображать события нескольких дней';
+$txt['setting_cal_allowspan'] = '';
 $txt['setting_cal_maxspan'] = 'Максимальное количество дней для отображения события';
 $txt['setting_cal_showInTopic'] = 'Показывать связанные с темой события';
-
+$txt['setting_calendar_default_view'] = 'Default view on calendar page';
+$txt['setting_cal_view_list'] = 'List view';
+$txt['setting_cal_view_month'] = 'Month view';
+$txt['setting_cal_view_week'] = 'Week view';
 $txt['setting_cal_display_type'] = 'Вид календаря';
 $txt['setting_cal_display_comfortable'] = 'Стандартный';
 $txt['setting_cal_display_compact'] = 'Компактный';
-
 $txt['setting_cal_disable_prev_next'] = 'Отключить блок с тремя месяцами';
-
 $txt['setting_cal_highlight_events'] = 'Подсвечивать события';
 $txt['setting_cal_highlight_holidays'] = 'Подсвечивать праздники';
 $txt['setting_cal_highlight_birthdays'] = 'Подсвечивать дни рождения';
-
 $txt['setting_cal_highlight_none'] = 'Нигде';
 $txt['setting_cal_highlight_mini'] = 'Только мини-календарь';
 $txt['setting_cal_highlight_main'] = 'Только стандартный календарь';
 $txt['setting_cal_highlight_both'] = 'Мини-календарь и стандартный';
-
 $txt['setting_cal_week_links'] = 'Показывать ссылки на недели';
 $txt['setting_cal_week_links_none'] = 'Нигде';
 $txt['setting_cal_week_links_mini'] = 'Только мини-календарь';
 $txt['setting_cal_week_links_main'] = 'Только стандартный календарь';
 $txt['setting_cal_week_links_both'] = 'Мини-календарь и стандартный';
 $txt['setting_cal_prev_next_links'] = 'Показывать ссылки <em>Предыдущий / Следующий</em> месяц';
-
 // The name of this setting is kind of misleading...we can't shorten actual months unfortunately!
 $txt['setting_cal_short_months'] = 'Короткие названия месяцев';
 $txt['setting_cal_short_days'] = 'Короткие названия дней недели';
-
 // Adding/Editing/Viewing Holidays
 $txt['manage_holidays_desc'] = 'Здесь можно добавлять и удалять праздники в календаре.';
 $txt['current_holidays'] = 'Текущие праздники';
